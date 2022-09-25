@@ -28,10 +28,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
-  color:#C78C19;
+nav a:hover {
+  color: #c78c19;
   text-decoration: underline;
-  
 }
 
 .produtos {
@@ -53,15 +52,14 @@ nav a:hover{
 }
 
 .produtos li:hover {
-border-color: #C78C19;
-
+  border-color: #c78c19;
 }
 
-.produtos li:active{
-  border-color: #088C19;
+.produtos li:active {
+  border-color: #088c19;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
   font-size: 34px;
 }
 
@@ -78,4 +76,16 @@ border-color: #C78C19;
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0 0;
+}
+
+footer {
+  text-align: center;
+  background: url("assets/img/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
 }
