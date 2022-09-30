@@ -1,3 +1,9 @@
+body {
+  font-family:'Montserrat', sans-serif;;
+}
+
+
+
 header {
   background: #bbbbbb;
   padding: 20px 0;
@@ -154,14 +160,14 @@ th {
 /* css da pagina inicial */
 
 .banner {
-width: 100%;
+  width: 100%;
 }
 
 .titulo-principal {
-text-align: center;
-font-size: 2em;
-margin: 0 0 1em;
-clear: left;
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
 }
 
 .principal p {
