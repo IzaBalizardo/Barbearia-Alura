@@ -126,7 +126,7 @@ form legend {
   border: none;
   border-radius: 5px;
   transition: 1.2s all;
-  cursor: pointer;
+  cursor: pointer; /* Mouse por cima do elemento transforma em "mãozinha" */
 }
 
 .enviar:hover {
@@ -189,7 +189,10 @@ th {
 
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#fefefe, #888888);
+  background: linear-gradient(
+    #fefefe,
+    #888888
+  ); /* Estilização gradiente "cor degradê" */
 }
 
 .mapa-conteudo {
@@ -222,14 +225,17 @@ th {
 }
 
 .itens:first-child {
+  /* first-child seleciona o primeiro elemento */
   font-weight: bold;
 }
 
 .itens::before {
+  /* Before ou after acrescenta algo antes ou depois da frase */
   content: "✵";
 }
 .imagem-beneficios {
   width: 60%;
+  opacity: 0.7;
 }
 
 .video {
