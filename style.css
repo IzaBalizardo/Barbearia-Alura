@@ -235,10 +235,22 @@ th {
 }
 .imagem-beneficios {
   width: 60%;
+  opacity: 2;
+  transition: 350ms;
+}
+
+.imagem-beneficios:hover {
   opacity: 0.7;
 }
 
 .video {
   width: 560px;
   margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    width: auto;
+  }
+  
 }
